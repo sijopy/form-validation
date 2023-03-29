@@ -1,0 +1,106 @@
+
+body{
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsyjlSz2N78LVsdfiGdBInwDUL7msbWrIS-R6O9RhuFY8bqueaoCyczE3_AAyNJe6EYF1UtHgCd_10pxc2G7FuDtN_wxXtc-Ny1ZvJPt1v95oTGD6eWeani_zUU01Fz8ivJDg6eE630NO51E-GF9C-07tKuwI_rhq7Idbw3lOKOIkzWVOTGo95t02CSA/s1920-rw/v7-060622-pc-wallpaper-hd.png);
+    overflow: scroll;
+}
+
+.container{
+    justify-content: center;
+	position: relative;
+	width: 450px;
+	height: auto;
+	background-image: url(https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif);
+	border-radius: 5px;
+	margin-left: auto;
+}
+.label{
+	padding: 20px 130px;
+	font-size: 35px;
+	font-weight: bold;
+	color: #02ffff;
+	font-family: 'Caveat', cursive;
+	font-size: 48px;
+}
+.login_form{
+	padding: 20px 40px;
+}
+.login_form .font{
+	font-size: 18px;
+	color: #909090;
+	margin: 5px 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login_form input{
+	height: 40px;
+	width: 300px;
+	padding: 5px 0px;
+	font-size: 18px;
+	outline: none;
+	border: 1px solid silver;
+}
+.login_form .font2{
+	margin-top: 30px;
+}
+.login_form button{
+	margin: 45px 0 30px 0;
+	height: 45px;
+	width: 100px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #1A237E;
+	border-radius: 12px;
+	border: 1px solid #3949AB;
+	transition: .5s;
+}
+.login_form button:hover{
+	background: #151c6a;
+}
+.login_form #email_error,
+.login_form #pass_error{
+	margin-top: 5px;
+	width: 345px;
+	font-size: 18px;
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+	display: none;
+}
+
+.footer{
+    position: relative;
+   display: block;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   align-items: center;
+
+}
+h5{
+    display: block;
+    color: darkgray;
+	text-align: center;
+	align-items: center;
+}
+.prolaborate-link{
+    display: block;
+    position: relative;
+    /* left: 45%; */
+	text-align: center;
+}
+h6{
+    color: darkgray;
+	text-align: center;
+
+}
+a:hover{
+    color: rgb(0, 255, 55);
+    transform: 0.4s;
+	align-items: center;
+	text-align: center;
+	display: block;
+	justify-content: center;
+}
